@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0d2eca0c-870f-4ba7-9c79-839d0345bb20" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1XIUSj8StraIostAga45jQRyYCS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\self\work\selfWorkspace\AceCombat\src\egretEntance" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\self\work\selfWorkspace\AceCombat\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/AceCombat/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d2eca0c-870f-4ba7-9c79-839d0345bb20" name="Default Changelist" comment="" />
+      <created>1580733103715</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580733103715</updated>
+      <workItem from="1580733105768" duration="3251000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1156" y="262" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1580733486485">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state x="1156" y="262" key="#com.intellij.ide.macro.MacrosDialog/0.0.2752.1112@0.0.2752.1112" timestamp="1580733486485" />
+    <state x="1112" y="313" key="#com.intellij.tools.ToolEditorDialog" timestamp="1580733506981">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state x="1112" y="313" key="#com.intellij.tools.ToolEditorDialog/0.0.2752.1112@0.0.2752.1112" timestamp="1580733506981" />
+    <state x="1156" y="312" key="FileChooserDialogImpl" timestamp="1580733505760">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state x="1156" y="312" key="FileChooserDialogImpl/0.0.2752.1112@0.0.2752.1112" timestamp="1580733505760" />
+    <state width="2731" height="305" key="GridCell.Tab.0.bottom" timestamp="1580738149468">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state width="2731" height="305" key="GridCell.Tab.0.bottom/0.0.2752.1112@0.0.2752.1112" timestamp="1580738149468" />
+    <state width="2731" height="305" key="GridCell.Tab.0.center" timestamp="1580738149468">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state width="2731" height="305" key="GridCell.Tab.0.center/0.0.2752.1112@0.0.2752.1112" timestamp="1580738149468" />
+    <state width="2731" height="305" key="GridCell.Tab.0.left" timestamp="1580738149467">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state width="2731" height="305" key="GridCell.Tab.0.left/0.0.2752.1112@0.0.2752.1112" timestamp="1580738149467" />
+    <state width="2731" height="305" key="GridCell.Tab.0.right" timestamp="1580738149468">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state width="2731" height="305" key="GridCell.Tab.0.right/0.0.2752.1112@0.0.2752.1112" timestamp="1580738149468" />
+    <state x="878" y="199" key="SettingsEditor" timestamp="1580733508700">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state x="878" y="199" key="SettingsEditor/0.0.2752.1112@0.0.2752.1112" timestamp="1580733508700" />
+  </component>
+</project>

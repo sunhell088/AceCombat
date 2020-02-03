@@ -1,0 +1,20 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/eui/eui.js",
+		"libs/modules/res/res.js",
+		"libs/modules/game/game.js",
+		"libs/modules/tween/tween.js",
+		"libs/modules/promise/promise.js",
+		"libs/WXCloudApi/WXCloudApi.js",
+		"libs/egretmgobe/egretmgobe.js"
+	],
+	"game": [
+		"bin-debug/LobbyUI.js",
+		"bin-debug/egretEntance/AssetAdapter.js",
+		"bin-debug/egretEntance/Main.js",
+		"bin-debug/egretEntance/Platform.js",
+		"bin-debug/egretEntance/ThemeAdapter.js"
+	]
+}

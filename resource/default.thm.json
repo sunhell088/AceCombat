@@ -1,0 +1,35 @@
+{
+	"skins": {
+		"eui.Button": "resource/assets/skin/common_skins/eui_skins/ButtonSkin.exml",
+		"eui.CheckBox": "resource/assets/skin/common_skins/eui_skins/CheckBoxSkin.exml",
+		"eui.HScrollBar": "resource/assets/skin/common_skins/eui_skins/HScrollBarSkin.exml",
+		"eui.HSlider": "resource/assets/skin/common_skins/eui_skins/HSliderSkin.exml",
+		"eui.Panel": "resource/assets/skin/common_skins/eui_skins/PanelSkin.exml",
+		"eui.TextInput": "resource/assets/skin/common_skins/eui_skins/TextInputSkin.exml",
+		"eui.ProgressBar": "resource/assets/skin/common_skins/eui_skins/ProgressBarSkin.exml",
+		"eui.RadioButton": "resource/assets/skin/common_skins/eui_skins/RadioButtonSkin.exml",
+		"eui.Scroller": "resource/assets/skin/common_skins/eui_skins/ScrollerSkin.exml",
+		"eui.ToggleSwitch": "resource/assets/skin/common_skins/eui_skins/ToggleSwitchSkin.exml",
+		"eui.VScrollBar": "resource/assets/skin/common_skins/eui_skins/VScrollBarSkin.exml",
+		"eui.VSlider": "resource/assets/skin/common_skins/eui_skins/VSliderSkin.exml",
+		"eui.ItemRenderer": "resource/assets/skin/common_skins/eui_skins/ItemRendererSkin.exml"
+	},
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/assets/skin/common_skins/eui_skins/ButtonSkin.exml",
+		"resource/assets/skin/common_skins/eui_skins/CheckBoxSkin.exml",
+		"resource/assets/skin/common_skins/eui_skins/HScrollBarSkin.exml",
+		"resource/assets/skin/common_skins/eui_skins/HSliderSkin.exml",
+		"resource/assets/skin/common_skins/eui_skins/ItemRendererSkin.exml",
+		"resource/assets/skin/common_skins/eui_skins/PanelSkin.exml",
+		"resource/assets/skin/common_skins/eui_skins/ProgressBarSkin.exml",
+		"resource/assets/skin/common_skins/eui_skins/RadioButtonSkin.exml",
+		"resource/assets/skin/common_skins/eui_skins/ScrollerSkin.exml",
+		"resource/assets/skin/common_skins/eui_skins/TextInputSkin.exml",
+		"resource/assets/skin/common_skins/eui_skins/ToggleSwitchSkin.exml",
+		"resource/assets/skin/common_skins/eui_skins/VScrollBarSkin.exml",
+		"resource/assets/skin/common_skins/eui_skins/VSliderSkin.exml",
+		"resource/assets/skin/LobbySkin.exml"
+	],
+	"path": "resource/default.thm.json"
+}
