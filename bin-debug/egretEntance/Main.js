@@ -87,6 +87,8 @@ var Main = (function (_super) {
                         //初始化Resource资源加载库
                         RES.addEventListener(RES.ResourceEvent.CONFIG_COMPLETE, this.onConfigComplete, this);
                         RES.loadConfig("resource/default.res.json?" + this.defaultResVersion, "resource/");
+                        Game.instance.initGameView(this);
+                        Game.instance.initGameModule();
                         return [2 /*return*/];
                 }
             });
@@ -128,12 +130,7 @@ var Main = (function (_super) {
     };
     Main.prototype.createScene = function () {
         if (this.isThemeLoadEnd && this.isResourceLoadEnd) {
-            // Game.instance.startGame();
-            var lobbyUI = new LobbyUI();
-            this.addChild(lobbyUI);
-            var xxoo = new eui.Label("111111");
-            this.addChild(xxoo);
-            egret.Tween.get(xxoo, { loop: true }).to({ x: 1000 }, 1000).to({ x: 0 }, 1000);
+            Game.instance.startGame();
         }
     };
     /**
@@ -155,7 +152,7 @@ var Main = (function (_super) {
      */
     Main.prototype.onResourceProgress = function (event) {
         if (event.groupName == "preload") {
-            // ViewManager.instance.showLoading(event.itemsLoaded, event.itemsTotal);
+            ViewManager.instance.showLoading(event.itemsLoaded, event.itemsTotal);
         }
     };
     return Main;

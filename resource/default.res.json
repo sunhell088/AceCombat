@@ -1,24 +1,99 @@
 {
 	"groups":[{
-			"keys":"bg_jpg,egret_icon_png,euiDefault_json",
+			"keys":"euiDefault_json,bg_mp3,reward_fnt,language_json,button_mp3,win_mp3,confirmPress_png,confirmNormalCountDown_png,confirmNormal_png,confirmIcon_png,cancelPress_png,cancelNormal_png,alertBG_png,FlowHintBG_png,lobbyBG_jpg,marqueeBG_png,moduleLoadingIcon_png,confirmPressCountDown_png",
 			"name":"preload"
 		}],
 	"resources":[
-		{
-			"name":"bg_jpg",
-			"type":"image",
-			"url":"assets/bg.jpg"
-		},
-		{
-			"name":"egret_icon_png",
-			"type":"image",
-			"url":"assets/egret_icon.png"
-		},
 		{
 			"name":"euiDefault_json",
 			"subkeys":"border_png,button_down_png,button_up_png,checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,handle_png,header_png,off_png,on_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,selected_png,thumb_pb_png,thumb_png,track_pb_png,track_png,track_sb_png,tracklight_png",
 			"type":"sheet",
 			"url":"assets/euiDefault/euiDefault.json"
+		},
+		{
+			"name":"bg_mp3",
+			"type":"sound",
+			"url":"assets/preload/audio/bg.mp3"
+		},
+		{
+			"name":"reward_fnt",
+			"type":"font",
+			"url":"assets/preload/font/reward.fnt"
+		},
+		{
+			"name":"language_json",
+			"type":"json",
+			"url":"assets/preload/config/language.json"
+		},
+		{
+			"name":"button_mp3",
+			"type":"sound",
+			"url":"assets/preload/audio/button.mp3"
+		},
+		{
+			"name":"win_mp3",
+			"type":"sound",
+			"url":"assets/preload/audio/win.mp3"
+		},
+		{
+			"name":"confirmPress_png",
+			"type":"image",
+			"url":"assets/texture_tiny/preload/alert/confirmPress.png"
+		},
+		{
+			"name":"confirmNormalCountDown_png",
+			"type":"image",
+			"url":"assets/texture_tiny/preload/alert/confirmNormalCountDown.png"
+		},
+		{
+			"name":"confirmNormal_png",
+			"type":"image",
+			"url":"assets/texture_tiny/preload/alert/confirmNormal.png"
+		},
+		{
+			"name":"confirmIcon_png",
+			"type":"image",
+			"url":"assets/texture_tiny/preload/alert/confirmIcon.png"
+		},
+		{
+			"name":"cancelPress_png",
+			"type":"image",
+			"url":"assets/texture_tiny/preload/alert/cancelPress.png"
+		},
+		{
+			"name":"cancelNormal_png",
+			"type":"image",
+			"url":"assets/texture_tiny/preload/alert/cancelNormal.png"
+		},
+		{
+			"name":"alertBG_png",
+			"type":"image",
+			"url":"assets/texture_tiny/preload/alert/alertBG.png"
+		},
+		{
+			"name":"FlowHintBG_png",
+			"type":"image",
+			"url":"assets/texture_tiny/preload/FlowHintBG.png"
+		},
+		{
+			"name":"lobbyBG_jpg",
+			"type":"image",
+			"url":"assets/texture_tiny/preload/lobby/lobbyBG.jpg"
+		},
+		{
+			"name":"marqueeBG_png",
+			"type":"image",
+			"url":"assets/texture_tiny/preload/marquee/marqueeBG.png"
+		},
+		{
+			"name":"moduleLoadingIcon_png",
+			"type":"image",
+			"url":"assets/texture_tiny/preload/moduleLoadingIcon.png"
+		},
+		{
+			"name":"confirmPressCountDown_png",
+			"type":"image",
+			"url":"assets/texture_tiny/preload/alert/confirmPressCountDown.png"
 		}
 	]
 }

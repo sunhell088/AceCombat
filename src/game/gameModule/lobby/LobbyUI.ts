@@ -3,25 +3,24 @@
  * 大厅
  */
 class LobbyUI extends eui.Component {
-    private integralLab:eui.Label;
-    private balanceLab:eui.Label;
+    private loginBtn:eui.Button;
 
     public constructor() {
         super();
-        this.skinName = LobbySkin;
+        this.skinName = LobbyUISkin;
     }
 
     protected createChildren():void {
         super.createChildren();
-        this.addEventListener(egret.TouchEvent.TOUCH_END,this.onEnd,this)
+        this.loginBtn.addEventListener(egret.TouchEvent.TOUCH_END,this.onLoginBtn,this)
     }
 
     public initUI():void {
         
     }
 
-    private onEnd(){
-
+    private onLoginBtn(){
+        ViewManager.instance.OPEN_WINDOW(GameSceneMediator);
     }
 
     openUI():void {

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CountDownComponentSkin" xmlns:e="http://ns.egret.com/eui">
+	<e:Label id="countDownHintLab" text="Auto selected after 10 secs" fontFamily="Microsoft YaHei" textColor="0xcccccc" size="26" stroke="2" strokeColor="0x000000" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0"/>
+</e:Skin>

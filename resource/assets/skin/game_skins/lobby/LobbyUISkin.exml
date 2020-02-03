@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LobbyUISkin" width="1080" height="1920" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="lobbyBG_jpg" horizontalCenter="0" verticalCenter="0"/>
+	<e:Button id="loginBtn" label="进入" x="96" y="627" skinName="skins.ButtonSkin"/>
+</e:Skin>

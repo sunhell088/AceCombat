@@ -1,3 +1,7 @@
+declare class CommonAlertSkin extends eui.Skin{
+}
+declare class CountDownComponentSkin extends eui.Skin{
+}
 declare module skins{
 	class ButtonSkin extends eui.Skin{
 	}
@@ -50,5 +54,7 @@ declare module skins{
 	class VSliderSkin extends eui.Skin{
 	}
 }
-declare class LobbySkin extends eui.Skin{
+declare class GameSceneUISkin extends eui.Skin{
+}
+declare class LobbyUISkin extends eui.Skin{
 }

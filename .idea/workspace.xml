@@ -1,14 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d2eca0c-870f-4ba7-9c79-839d0345bb20" name="Default Changelist" comment="" />
+    <list default="true" id="0d2eca0c-870f-4ba7-9c79-839d0345bb20" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-debug/LobbyUI.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-debug/Main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-debug/egretEntance/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin-debug/egretEntance/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/exml.e.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/libs/exml.e.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/assets/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/assets/egret_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/assets/skin/LobbySkin.exml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/default.res.json" beforeDir="false" afterPath="$PROJECT_DIR$/resource/default.res.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/default.thm.json" beforeDir="false" afterPath="$PROJECT_DIR$/resource/default.thm.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LobbyUI.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/egretEntance/Main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/egretEntance/Main.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XIUSj8StraIostAga45jQRyYCS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -17,15 +37,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/game/gameModule" />
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\self\work\selfWorkspace\AceCombat\src\egretEntance" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\self\work\selfWorkspace\AceCombat\src\game\gameModule" />
+      <recent name="D:\self\work\selfWorkspace\AceCombat\src\game\const" />
       <recent name="D:\self\work\selfWorkspace\AceCombat\src" />
+      <recent name="D:\self\work\selfWorkspace\AceCombat\src\game\gameUtils" />
+      <recent name="D:\self\work\selfWorkspace\AceCombat\src\game\managers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\self\work\selfWorkspace\AceCombat\src\game\gameModule\lobby" />
+      <recent name="D:\self\work\selfWorkspace\AceCombat\src\egretEntance" />
     </key>
   </component>
   <component name="RunManager">
@@ -49,6 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580733103715</updated>
       <workItem from="1580733105768" duration="3251000" />
+      <workItem from="1580741436348" duration="2621000" />
     </task>
     <servers />
   </component>
@@ -68,25 +94,29 @@
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
     <state x="1156" y="312" key="FileChooserDialogImpl/0.0.2752.1112@0.0.2752.1112" timestamp="1580733505760" />
-    <state width="2731" height="305" key="GridCell.Tab.0.bottom" timestamp="1580738149468">
+    <state width="2731" height="305" key="GridCell.Tab.0.bottom" timestamp="1580744213699">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
-    <state width="2731" height="305" key="GridCell.Tab.0.bottom/0.0.2752.1112@0.0.2752.1112" timestamp="1580738149468" />
-    <state width="2731" height="305" key="GridCell.Tab.0.center" timestamp="1580738149468">
+    <state width="2731" height="305" key="GridCell.Tab.0.bottom/0.0.2752.1112@0.0.2752.1112" timestamp="1580744213699" />
+    <state width="2731" height="305" key="GridCell.Tab.0.center" timestamp="1580744213699">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
-    <state width="2731" height="305" key="GridCell.Tab.0.center/0.0.2752.1112@0.0.2752.1112" timestamp="1580738149468" />
-    <state width="2731" height="305" key="GridCell.Tab.0.left" timestamp="1580738149467">
+    <state width="2731" height="305" key="GridCell.Tab.0.center/0.0.2752.1112@0.0.2752.1112" timestamp="1580744213699" />
+    <state width="2731" height="305" key="GridCell.Tab.0.left" timestamp="1580744213699">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
-    <state width="2731" height="305" key="GridCell.Tab.0.left/0.0.2752.1112@0.0.2752.1112" timestamp="1580738149467" />
-    <state width="2731" height="305" key="GridCell.Tab.0.right" timestamp="1580738149468">
+    <state width="2731" height="305" key="GridCell.Tab.0.left/0.0.2752.1112@0.0.2752.1112" timestamp="1580744213699" />
+    <state width="2731" height="305" key="GridCell.Tab.0.right" timestamp="1580744213699">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
-    <state width="2731" height="305" key="GridCell.Tab.0.right/0.0.2752.1112@0.0.2752.1112" timestamp="1580738149468" />
+    <state width="2731" height="305" key="GridCell.Tab.0.right/0.0.2752.1112@0.0.2752.1112" timestamp="1580744213699" />
     <state x="878" y="199" key="SettingsEditor" timestamp="1580733508700">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
     <state x="878" y="199" key="SettingsEditor/0.0.2752.1112@0.0.2752.1112" timestamp="1580733508700" />
+    <state x="1039" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1580743500820">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state x="1039" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2752.1112@0.0.2752.1112" timestamp="1580743500820" />
   </component>
 </project>

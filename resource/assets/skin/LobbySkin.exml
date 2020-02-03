@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="LobbySkin" width="1080" height="1920" xmlns:e="http://ns.egret.com/eui">
-	<e:Image source="bg_jpg" verticalCenter="0" horizontalCenter="0"/>
-	<e:Image source="egret_icon_png" x="53" y="420"/>
-	<e:Button label="Button" x="96" y="627" skinName="skins.ButtonSkin"/>
-</e:Skin>

@@ -1,0 +1,44 @@
+{
+  "common": {
+    "copy2Clipboard succuss": "复制成功",
+    "url error": "Url配置错误，address={0}",
+    "server_disconnect": "你与服务器的连接已断开",
+    "server_connect_fail": "与服务器连接失败，address={0}",
+    "connect is break": "和服务器连接已经断开, 无法发送消息！",
+    "server_reconnect": "重新连接到服务器成功",
+    "server_reconnecting": "您的网络出现异常，连接已断开（正在自动连接中……）",
+    "s2c_data_relogin_by_time": "由于您长时间未进行游戏，为保证账号安全，请重新登录",
+    "httpRequestError": "您的网络通讯出现了问题",
+    "httpRequestError_resend": "正在为您自动重连中\n（如多次重连失败，请检查您的网络状况）",
+    "s2c_data_error": "网络异常，请重新登录",
+    "errorMsg_none": "异常操作，错误码：{0}",
+    "errorMsg1001": "操作失败（您的帐号验证信息错误，请到平台退出您的帐号后，再重新登录一次）",
+    "errorMsg1002": "游戏状态错误",
+    "errorMsg1005": "您的账号在另一个设备登陆，请重新登录",
+    "errorMsg1006": "您的账号在另一个设备登陆，请重新登录",
+    "errorMsg1016": "您的投注超过限额了",
+    "errorMsg1013": "金额不足，请您充值！",
+    "errorMsg1020": "长时间未下注，您已被请出房间",
+    "errorMsg1022": "下注已结束",
+    "moneyNotEnough": "金额不足，请您充值！",
+    "ServerStalling_start": "排行榜信息结算中，请稍后...（预计需要2分钟）",
+    "ServerStalling_over": "系统维护结束，请继续游戏",
+
+
+    "credits": "积分",
+    "can not bet!": "现在不在下注的时间范围内，请稍候",
+    "amount out of range!": "您的下注已达最大限额（限注范围为{0}--{1}）",
+    "out_of_wager_max": "您的下注超过最大限额（{0}），是否进行满额下注?",
+    "jackpotBigWinCountDownTip":"<font color='#A5EF70'>{0}</font>",
+    "noneWager":"未下注",
+    "mostProfitMarquee":"恭喜玩家 <font size='29' color='#ff0000'>{0}</font> 在游戏中，赢得积分 <font size='29' color='#ffc600'>{1}</font>！",
+    "jackpotMarquee":"恭喜玩家 <font size='29' color='#ff0000'>{0}</font> 赢得JACKPOT大奖，获得积分 <font size='29' color='#ffc600'>{1}</font>",
+    "roomStatusOpenResult": "开奖中，请稍候",
+
+    "amount no allowed!":"下注超过最大限额,请切换下注额！",
+    "can not bet!":"不在下注的时间范围内，请稍等！",
+    "not enough balance!":"余额不足，请充值或者切换下注额！",
+    "kick out!":"由于长时间未下注，您已经被踢出房间！",
+    "invalid session":"请登录！"
+  }
+}

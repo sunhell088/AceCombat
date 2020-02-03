@@ -48,8 +48,8 @@ class Main extends egret.DisplayObjectContainer {
         RES.addEventListener(RES.ResourceEvent.CONFIG_COMPLETE, this.onConfigComplete, this);
         RES.loadConfig("resource/default.res.json?" + this.defaultResVersion, "resource/");
 
-        // Game.instance.initGameView(this);
-        // Game.instance.initGameModule();
+        Game.instance.initGameView(this);
+        Game.instance.initGameModule();
     }
 
 
@@ -93,12 +93,7 @@ class Main extends egret.DisplayObjectContainer {
 
     private createScene() {
         if (this.isThemeLoadEnd && this.isResourceLoadEnd) {
-            // Game.instance.startGame();
-            var lobbyUI = new LobbyUI();
-            this.addChild(lobbyUI)
-            var xxoo: eui.Label = new eui.Label("111111");
-            this.addChild(xxoo)
-            egret.Tween.get(xxoo, {loop: true}).to({x: 1000}, 1000).to({x: 0}, 1000);
+            Game.instance.startGame();
         }
     }
 
@@ -123,7 +118,7 @@ class Main extends egret.DisplayObjectContainer {
      */
     private onResourceProgress(event: RES.ResourceEvent): void {
         if (event.groupName == "preload") {
-            // ViewManager.instance.showLoading(event.itemsLoaded, event.itemsTotal);
+            ViewManager.instance.showLoading(event.itemsLoaded, event.itemsTotal);
         }
     }
 }

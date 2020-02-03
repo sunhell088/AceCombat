@@ -16,16 +16,17 @@ var LobbyUI = (function (_super) {
     __extends(LobbyUI, _super);
     function LobbyUI() {
         var _this = _super.call(this) || this;
-        _this.skinName = LobbySkin;
+        _this.skinName = LobbyUISkin;
         return _this;
     }
     LobbyUI.prototype.createChildren = function () {
         _super.prototype.createChildren.call(this);
-        this.addEventListener(egret.TouchEvent.TOUCH_END, this.onEnd, this);
+        this.loginBtn.addEventListener(egret.TouchEvent.TOUCH_END, this.onLoginBtn, this);
     };
     LobbyUI.prototype.initUI = function () {
     };
-    LobbyUI.prototype.onEnd = function () {
+    LobbyUI.prototype.onLoginBtn = function () {
+        ViewManager.instance.OPEN_WINDOW(GameSceneMediator);
     };
     LobbyUI.prototype.openUI = function () {
     };

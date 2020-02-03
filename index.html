@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Egret</title>
+    <title>10 Minutes</title>
     <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="full-screen" content="true" />
@@ -35,6 +35,13 @@
          data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
     </div>
 <script>
+    var loadingLanguage = {
+        "loadingText_zh": "加载中  ",
+        "loadingText_en": "Loading...",
+        "portraitScreenHint_zh": "请切换至横屏进行游戏",
+        "portraitScreenHint_en": "This game only support playing in landscape"
+    };
+
     var loadScript = function (list, callback) {
         var loaded = 0;
         var loadNext = function () {
