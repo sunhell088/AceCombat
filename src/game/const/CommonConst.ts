@@ -1,6 +1,6 @@
 class CommonConst {
-    public static STAGE_WIDTH = 1080;
-    public static STAGE_HEIGHT = 1920;
+    public static STAGE_WIDTH = 320;
+    public static STAGE_HEIGHT = 568;
     public static GAME_ID:string = "AceCombat";
 
     //加载相关的groupName

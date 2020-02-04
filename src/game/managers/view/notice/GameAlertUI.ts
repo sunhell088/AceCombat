@@ -31,7 +31,7 @@ class GameAlertUI extends eui.Component {
     }
 
     public alert(...parameters):void {
-        SoundManager.instance.playEffect(SoundConst.ALERT);
+        // SoundManager.instance.playEffect(SoundConst.ALERT);
         this.messages.push(arguments);
         if (!this.visible) {
             this.alertMessage.apply(this, this.messages.shift());
@@ -95,7 +95,7 @@ class GameAlertUI extends eui.Component {
     }
 
     close():void {
-        SoundManager.instance.playEffect(SoundConst.BUTTON_CLICK);
+        // SoundManager.instance.playEffect(SoundConst.BUTTON_CLICK);
         this.visible = false;
         if (this.messages.length > 0) {
             this.alertMessage.apply(this, this.messages.shift());
@@ -104,7 +104,7 @@ class GameAlertUI extends eui.Component {
 
     private onAffirm():void {
         egret.clearInterval(this.interKey);
-        SoundManager.instance.playEffect(SoundConst.BUTTON_CLICK);
+        // SoundManager.instance.playEffect(SoundConst.BUTTON_CLICK);
         if (this.affirmHandler != null) {
             var thisObj:any = this.thisObject || this;
             //这里this.parameters取0是因为经过了2次可变参数传递

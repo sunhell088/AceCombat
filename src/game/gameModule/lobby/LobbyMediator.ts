@@ -14,7 +14,7 @@ class LobbyMediator extends Mediator {
         egret.Tween.removeAllTweens();
         ViewManager.instance.hideLoading();     //隐藏登录loading
         ViewManager.instance.addElement(this.lobbyUI);
-        this.lobbyUI.openUI();
+        this.lobbyUI.enter();
     }
 
     onExit():void {

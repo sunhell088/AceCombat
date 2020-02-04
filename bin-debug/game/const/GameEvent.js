@@ -13,51 +13,16 @@ var GameEvent = (function (_super) {
     function GameEvent() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
-    //有其他玩家进入房间
-    GameEvent.OTHER_PLAYER_ENTER_ROOM = "onOtherPlayerEnterRoom";
-    //有其他玩家退出房间
-    GameEvent.OTHER_PLAYER_EXIT_ROOM = "onOtherPlayerExitRoom";
-    //----------------------------新梭哈------------------------------
-    /**倒计时*/
-    GameEvent.COUNT_DOWN_WAGER = "onCountDownWager";
-    /**游戏下注状态 */
-    GameEvent.S2C_GAME_STATE = "onS2CGameState";
-    /**停止下注 */
-    GameEvent.STOP_BET = "onStopBet";
-    /**玩家下注 */
-    GameEvent.S2C_BET_INFO = "onS2CBetInfo";
-    /**发牌 */
-    GameEvent.S2C_DEAL_CARD = "onDealCard";
-    /**游戏赔付结果 */
-    GameEvent.S2C_PAY_RESULT = "onPayResult";
-    /**清理桌面 */
-    GameEvent.CLEAR_TABLE = "onClearTable";
-    /**清零路子 */
-    GameEvent.CLEAR_WAY = "onClearWay";
-    /**增加本局路子 */
-    GameEvent.ADD_WAY = "onAddWay";
-    /**打开路子详情 */
-    GameEvent.OPEN_WAY = "onOpenWay";
-    /**红蓝乱飞 */
-    GameEvent.RED_BLACF_FLY = "onRedBlackFly";
-    /**通知 */
-    GameEvent.GAME_NOTICE = "onGameNotice";
-    /**最大下注 */
-    GameEvent.MAX_BET = "onMaxBet";
-    /**确认所有玩家数据 */
-    GameEvent.ALL_PLAYER_DATA = "onAllPlayerData";
-    /**游戏等待动画 */
-    GameEvent.WAIT_GAME = "onWaitGame";
-    /**翻牌 */
-    GameEvent.TURN_CARD = "onTurnCard";
-    /**开始下注 */
-    GameEvent.START_BET_ANIMATION = "onStartBetAnimation";
-    /**提示下注特效 */
-    GameEvent.BET_ANIMATION = "onBetAnimation";
-    /**重复下注按钮状态 */
-    GameEvent.BTN_LASTTIME_STATE = "onBtnLastTimeState";
-    /**上一次下注 */
-    GameEvent.CHANGE_LAST_BTN = "onChangeLastBtn";
+    //战斗中经验增加
+    GameEvent.EXP_INCREASE_IN_FIGHT = "EXP_INCREASE_IN_FIGHT";
+    //战斗中升级
+    GameEvent.UP_GRADE_IN_FIGHT = "UP_GRADE_IN_FIGHT";
+    //战斗中增加炸弹
+    GameEvent.ADD_BOMB_IN_FIGHT = "ADD_BOMB_IN_FIGHT";
+    //战斗中增加炸弹
+    GameEvent.USE_BOMB_IN_FIGHT = "USE_BOMB_IN_FIGHT";
+    //战斗中增加金币
+    GameEvent.ADD_GOLD_IN_FIGHT = "ADD_GOLD_IN_FIGHT";
     return GameEvent;
 }(egret.Event));
 __reflect(GameEvent.prototype, "GameEvent");

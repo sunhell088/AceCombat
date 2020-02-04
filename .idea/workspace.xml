@@ -3,19 +3,30 @@
   <component name="ChangeListManager">
     <list default="true" id="0d2eca0c-870f-4ba7-9c79-839d0345bb20" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin-debug/LobbyUI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin-debug/Main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin-debug/egretEntance/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin-debug/egretEntance/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-debug/game/const/CommonConst.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin-debug/game/const/CommonConst.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-debug/game/const/GameEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin-debug/game/const/GameEvent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-debug/game/const/SoundConst.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin-debug/game/const/SoundConst.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-debug/game/gameModule/gameScene/GameSceneMediator.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin-debug/game/gameModule/gameScene/GameSceneMediator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-debug/game/gameModule/lobby/LobbyMediator.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin-debug/game/gameModule/lobby/LobbyMediator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-debug/game/gameModule/lobby/LobbyUI.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin-debug/game/gameModule/lobby/LobbyUI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-debug/game/managers/view/notice/GameAlertUI.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin-debug/game/managers/view/notice/GameAlertUI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-debug/game/playerData/GlobalProxy.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin-debug/game/playerData/GlobalProxy.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/exml.e.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/libs/exml.e.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/assets/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/assets/egret_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/assets/skin/LobbySkin.exml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/assets/preload/audio/bg.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/assets/preload/audio/button.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/assets/preload/audio/win.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/assets/skin/game_skins/lobby/LobbyUISkin.exml" beforeDir="false" afterPath="$PROJECT_DIR$/resource/assets/skin/game_skins/lobby/LobbyUISkin.exml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/assets/texture_tiny/preload/lobby/lobbyBG.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resource/default.res.json" beforeDir="false" afterPath="$PROJECT_DIR$/resource/default.res.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/default.thm.json" beforeDir="false" afterPath="$PROJECT_DIR$/resource/default.thm.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LobbyUI.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/egretEntance/Main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/egretEntance/Main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/const/CommonConst.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/const/CommonConst.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/const/GameEvent.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/const/GameEvent.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/const/SoundConst.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/const/SoundConst.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/gameModule/gameScene/GameSceneMediator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gameModule/gameScene/GameSceneMediator.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/gameModule/lobby/LobbyMediator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gameModule/lobby/LobbyMediator.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/gameModule/lobby/LobbyUI.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gameModule/lobby/LobbyUI.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/managers/view/notice/GameAlertUI.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/managers/view/notice/GameAlertUI.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/playerData/GlobalProxy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/playerData/GlobalProxy.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,20 +48,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/game/gameModule" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/leiDianJS" />
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\self\work\selfWorkspace\AceCombat\src\game\gameModule" />
-      <recent name="D:\self\work\selfWorkspace\AceCombat\src\game\const" />
-      <recent name="D:\self\work\selfWorkspace\AceCombat\src" />
-      <recent name="D:\self\work\selfWorkspace\AceCombat\src\game\gameUtils" />
-      <recent name="D:\self\work\selfWorkspace\AceCombat\src\game\managers" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\self\work\selfWorkspace\AceCombat\src\game\gameModule\lobby" />
       <recent name="D:\self\work\selfWorkspace\AceCombat\src\egretEntance" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\self\work\selfWorkspace\AceCombat\src\leiDianJS" />
+      <recent name="D:\self\work\selfWorkspace\AceCombat\src\game\const" />
+      <recent name="D:\self\work\selfWorkspace\AceCombat\src\game\gameUtils" />
+      <recent name="D:\self\work\selfWorkspace\AceCombat\src\game\gameModule" />
+      <recent name="D:\self\work\selfWorkspace\AceCombat\src" />
     </key>
   </component>
   <component name="RunManager">
@@ -74,7 +85,9 @@
       <option name="presentableId" value="Default" />
       <updated>1580733103715</updated>
       <workItem from="1580733105768" duration="3251000" />
-      <workItem from="1580741436348" duration="2621000" />
+      <workItem from="1580741436348" duration="4735000" />
+      <workItem from="1580827114635" duration="2618000" />
+      <workItem from="1580831097091" duration="11061000" />
     </task>
     <servers />
   </component>
@@ -94,29 +107,38 @@
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
     <state x="1156" y="312" key="FileChooserDialogImpl/0.0.2752.1112@0.0.2752.1112" timestamp="1580733505760" />
-    <state width="2731" height="305" key="GridCell.Tab.0.bottom" timestamp="1580744213699">
-      <screen x="0" y="0" width="2752" height="1112" />
+    <state width="1900" height="281" key="GridCell.Tab.0.bottom" timestamp="1580841243404">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="2731" height="305" key="GridCell.Tab.0.bottom/0.0.2752.1112@0.0.2752.1112" timestamp="1580744213699" />
-    <state width="2731" height="305" key="GridCell.Tab.0.center" timestamp="1580744213699">
-      <screen x="0" y="0" width="2752" height="1112" />
+    <state width="1900" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580841243404" />
+    <state width="2731" height="305" key="GridCell.Tab.0.bottom/0.0.2752.1112@0.0.2752.1112" timestamp="1580752165427" />
+    <state width="1900" height="281" key="GridCell.Tab.0.center" timestamp="1580841243403">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="2731" height="305" key="GridCell.Tab.0.center/0.0.2752.1112@0.0.2752.1112" timestamp="1580744213699" />
-    <state width="2731" height="305" key="GridCell.Tab.0.left" timestamp="1580744213699">
-      <screen x="0" y="0" width="2752" height="1112" />
+    <state width="1900" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580841243403" />
+    <state width="2731" height="305" key="GridCell.Tab.0.center/0.0.2752.1112@0.0.2752.1112" timestamp="1580752165426" />
+    <state width="1900" height="281" key="GridCell.Tab.0.left" timestamp="1580841243403">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="2731" height="305" key="GridCell.Tab.0.left/0.0.2752.1112@0.0.2752.1112" timestamp="1580744213699" />
-    <state width="2731" height="305" key="GridCell.Tab.0.right" timestamp="1580744213699">
-      <screen x="0" y="0" width="2752" height="1112" />
+    <state width="1900" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580841243403" />
+    <state width="2731" height="305" key="GridCell.Tab.0.left/0.0.2752.1112@0.0.2752.1112" timestamp="1580752165426" />
+    <state width="1900" height="281" key="GridCell.Tab.0.right" timestamp="1580841243403">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="2731" height="305" key="GridCell.Tab.0.right/0.0.2752.1112@0.0.2752.1112" timestamp="1580744213699" />
+    <state width="1900" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580841243403" />
+    <state width="2731" height="305" key="GridCell.Tab.0.right/0.0.2752.1112@0.0.2752.1112" timestamp="1580752165427" />
     <state x="878" y="199" key="SettingsEditor" timestamp="1580733508700">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
     <state x="878" y="199" key="SettingsEditor/0.0.2752.1112@0.0.2752.1112" timestamp="1580733508700" />
-    <state x="1039" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1580743500820">
-      <screen x="0" y="0" width="2752" height="1112" />
+    <state x="471" y="87" width="1178" height="826" key="find.popup" timestamp="1580841302754">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="471" y="87" width="1178" height="826" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580841302754" />
+    <state x="737" y="239" width="672" height="635" key="search.everywhere.popup" timestamp="1580840821549">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="737" y="239" width="672" height="635" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580840821549" />
     <state x="1039" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2752.1112@0.0.2752.1112" timestamp="1580743500820" />
   </component>
 </project>

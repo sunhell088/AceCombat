@@ -6,9 +6,9 @@ class GameSceneMediator extends Mediator {
 
     //游戏内事件监听
     addGameEventListener(): void {
-        this.addEventListener(GameEvent.COUNT_DOWN_WAGER, this.onCountDownWager, this)
-        this.addEventListener(GameEvent.S2C_GAME_STATE, this.onS2CGameState, this)
-        this.addEventListener(GameEvent.STOP_BET, this.onStopBet, this)
+        // this.addEventListener(GameEvent.COUNT_DOWN_WAGER, this.onCountDownWager, this)
+        // this.addEventListener(GameEvent.S2C_GAME_STATE, this.onS2CGameState, this)
+        // this.addEventListener(GameEvent.STOP_BET, this.onStopBet, this)
     }
 
     initView() {

@@ -18,9 +18,9 @@ var GameSceneMediator = (function (_super) {
     }
     //游戏内事件监听
     GameSceneMediator.prototype.addGameEventListener = function () {
-        this.addEventListener(GameEvent.COUNT_DOWN_WAGER, this.onCountDownWager, this);
-        this.addEventListener(GameEvent.S2C_GAME_STATE, this.onS2CGameState, this);
-        this.addEventListener(GameEvent.STOP_BET, this.onStopBet, this);
+        // this.addEventListener(GameEvent.COUNT_DOWN_WAGER, this.onCountDownWager, this)
+        // this.addEventListener(GameEvent.S2C_GAME_STATE, this.onS2CGameState, this)
+        // this.addEventListener(GameEvent.STOP_BET, this.onStopBet, this)
     };
     GameSceneMediator.prototype.initView = function () {
         this.gameScene = new GameSceneUI();

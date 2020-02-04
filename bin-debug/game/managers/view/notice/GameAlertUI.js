@@ -29,7 +29,7 @@ var GameAlertUI = (function (_super) {
         for (var _i = 0; _i < arguments.length; _i++) {
             parameters[_i] = arguments[_i];
         }
-        SoundManager.instance.playEffect(SoundConst.ALERT);
+        // SoundManager.instance.playEffect(SoundConst.ALERT);
         this.messages.push(arguments);
         if (!this.visible) {
             this.alertMessage.apply(this, this.messages.shift());
@@ -97,7 +97,7 @@ var GameAlertUI = (function (_super) {
         }
     };
     GameAlertUI.prototype.close = function () {
-        SoundManager.instance.playEffect(SoundConst.BUTTON_CLICK);
+        // SoundManager.instance.playEffect(SoundConst.BUTTON_CLICK);
         this.visible = false;
         if (this.messages.length > 0) {
             this.alertMessage.apply(this, this.messages.shift());
@@ -105,7 +105,7 @@ var GameAlertUI = (function (_super) {
     };
     GameAlertUI.prototype.onAffirm = function () {
         egret.clearInterval(this.interKey);
-        SoundManager.instance.playEffect(SoundConst.BUTTON_CLICK);
+        // SoundManager.instance.playEffect(SoundConst.BUTTON_CLICK);
         if (this.affirmHandler != null) {
             var thisObj = this.thisObject || this;
             //这里this.parameters取0是因为经过了2次可变参数传递

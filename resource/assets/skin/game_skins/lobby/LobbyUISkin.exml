@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="LobbyUISkin" width="1080" height="1920" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
-	<e:Image source="lobbyBG_jpg" horizontalCenter="0" verticalCenter="0"/>
-	<e:Button id="loginBtn" label="进入" x="96" y="627" skinName="skins.ButtonSkin"/>
+<e:Skin class="LobbyUISkin" width="320" height="568" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bgImg0" source="map_bg0_png" horizontalCenter="0" verticalCenter="-350"/>
+	<e:Image id="bgImg1" source="map_bg0_png" horizontalCenter="0" verticalCenter="218"/>
+	<e:Image source="menu_title_png" horizontalCenter="0" verticalCenter="-214"/>
+	<e:Image id="loginPlaneImg" source="role_big0_png" verticalCenter="0" horizontalCenter="0"/>
+	<e:Image id="startHintImg" source="ui_menu0_png" verticalCenter="208" horizontalCenter="0"/>
 </e:Skin>

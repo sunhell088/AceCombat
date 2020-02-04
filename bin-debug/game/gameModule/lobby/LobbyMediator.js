@@ -24,7 +24,7 @@ var LobbyMediator = (function (_super) {
         egret.Tween.removeAllTweens();
         ViewManager.instance.hideLoading(); //隐藏登录loading
         ViewManager.instance.addElement(this.lobbyUI);
-        this.lobbyUI.openUI();
+        this.lobbyUI.enter();
     };
     LobbyMediator.prototype.onExit = function () {
         this.lobbyUI.exit();

@@ -4,8 +4,8 @@ var __reflect = (this && this.__reflect) || function (p, c, t) {
 var CommonConst = (function () {
     function CommonConst() {
     }
-    CommonConst.STAGE_WIDTH = 1080;
-    CommonConst.STAGE_HEIGHT = 1920;
+    CommonConst.STAGE_WIDTH = 320;
+    CommonConst.STAGE_HEIGHT = 568;
     CommonConst.GAME_ID = "AceCombat";
     //加载相关的groupName
     CommonConst.RES_GROUP_PRELOAD = "preload";
