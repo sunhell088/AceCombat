@@ -32,16 +32,6 @@ var GameSceneMediator = (function (_super) {
     GameSceneMediator.prototype.onExit = function () {
         ViewManager.instance.removeElement(this.gameScene);
     };
-    GameSceneMediator.prototype.onCountDownWager = function (evt) {
-        // this.gameScene.onCountDownWager(evt.data[0]);
-    };
-    GameSceneMediator.prototype.onS2CGameState = function (evt) {
-        //this.gameScene.onS2CGameState(evt.data[0]);
-    };
-    GameSceneMediator.prototype.onStopBet = function () {
-        // this.gameScene.betState("stop")
-        // Data.globalProxy.isBet = false;
-    };
     return GameSceneMediator;
 }(Mediator));
 __reflect(GameSceneMediator.prototype, "GameSceneMediator");

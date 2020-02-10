@@ -26,8 +26,6 @@ class LobbyUI extends eui.Component {
         //播放背景音乐
         SoundManager.instance.playMusic(SoundConst.mainMusic_mp3);
         //根据玩家当前设置飞机初始化飞机图片
-        this.loginPlaneImg.source = "role_big"+GlobalProxy.globalProxy.data.currentPlaneID+"_png";
-
         //"点击开始游戏"图片添加放大缩小效果
         // 点击屏蔽任意地方开始
     }

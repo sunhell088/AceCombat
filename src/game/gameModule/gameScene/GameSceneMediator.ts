@@ -23,17 +23,4 @@ class GameSceneMediator extends Mediator {
     onExit(): void {
         ViewManager.instance.removeElement(this.gameScene);
     }
-
-    private onCountDownWager(evt: egret.Event) {
-        // this.gameScene.onCountDownWager(evt.data[0]);
-    }
-
-    private onS2CGameState(evt: egret.Event) {
-        //this.gameScene.onS2CGameState(evt.data[0]);
-    }
-
-    private onStopBet() {
-        // this.gameScene.betState("stop")
-        // Data.globalProxy.isBet = false;
-    }
 }

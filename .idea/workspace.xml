@@ -4,29 +4,63 @@
     <list default="true" id="0d2eca0c-870f-4ba7-9c79-839d0345bb20" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin-debug/game/const/CommonConst.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin-debug/game/const/CommonConst.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-debug/game/const/GameConst.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin-debug/game/const/GameConst.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin-debug/game/const/GameEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin-debug/game/const/GameEvent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin-debug/game/const/SoundConst.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin-debug/game/const/SoundConst.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin-debug/game/gameModule/gameScene/GameSceneMediator.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin-debug/game/gameModule/gameScene/GameSceneMediator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin-debug/game/gameModule/lobby/LobbyMediator.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin-debug/game/gameModule/lobby/LobbyMediator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin-debug/game/gameModule/lobby/LobbyUI.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin-debug/game/gameModule/lobby/LobbyUI.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin-debug/game/managers/view/notice/GameAlertUI.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin-debug/game/managers/view/notice/GameAlertUI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-debug/game/gameUtils/CommonUtil.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin-debug/game/gameUtils/CommonUtil.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin-debug/game/playerData/GlobalProxy.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin-debug/game/playerData/GlobalProxy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-debug/leiDianJS/configs/CommonConfig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-debug/leiDianJS/configs/DifficultConfig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-debug/leiDianJS/configs/EffectConfig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-debug/leiDianJS/configs/EnemyConfig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-debug/leiDianJS/configs/FormationConfig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-debug/leiDianJS/configs/GameConfig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-debug/leiDianJS/configs/ItemConfig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-debug/leiDianJS/configs/LanguageConfig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-debug/leiDianJS/configs/PlaneConfig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-debug/leiDianJS/configs/RoleEffectConfig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-debug/leiDianJS/configs/StoreItemConfig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-debug/leiDianJS/configs/UIConfig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/exml.e.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/libs/exml.e.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/modules/egret/egret.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/libs/modules/egret/egret.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/modules/egret/egret.js" beforeDir="false" afterPath="$PROJECT_DIR$/libs/modules/egret/egret.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/modules/egret/egret.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/libs/modules/egret/egret.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/modules/egret/egret.web.js" beforeDir="false" afterPath="$PROJECT_DIR$/libs/modules/egret/egret.web.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/modules/egret/egret.web.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/libs/modules/egret/egret.web.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/modules/eui/eui.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/libs/modules/eui/eui.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/modules/eui/eui.js" beforeDir="false" afterPath="$PROJECT_DIR$/libs/modules/eui/eui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/modules/eui/eui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/libs/modules/eui/eui.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/modules/game/game.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/libs/modules/game/game.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/modules/game/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/libs/modules/game/game.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/modules/game/game.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/libs/modules/game/game.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/modules/promise/promise.js" beforeDir="false" afterPath="$PROJECT_DIR$/libs/modules/promise/promise.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/modules/res/res.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/libs/modules/res/res.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/modules/res/res.js" beforeDir="false" afterPath="$PROJECT_DIR$/libs/modules/res/res.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/modules/tween/tween.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/libs/modules/tween/tween.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/modules/tween/tween.js" beforeDir="false" afterPath="$PROJECT_DIR$/libs/modules/tween/tween.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/assets/preload/audio/bg.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/assets/preload/audio/button.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/assets/preload/audio/win.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/assets/skin/game_skins/lobby/LobbyUISkin.exml" beforeDir="false" afterPath="$PROJECT_DIR$/resource/assets/skin/game_skins/lobby/LobbyUISkin.exml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/assets/texture_tiny/preload/lobby/lobbyBG.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/default.res.json" beforeDir="false" afterPath="$PROJECT_DIR$/resource/default.res.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/default.thm.json" beforeDir="false" afterPath="$PROJECT_DIR$/resource/default.thm.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game/const/CommonConst.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/const/CommonConst.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/const/GameConst.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/const/GameConst.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game/const/GameEvent.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/const/GameEvent.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/const/SoundConst.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/const/SoundConst.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game/gameModule/gameScene/GameSceneMediator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gameModule/gameScene/GameSceneMediator.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/gameModule/lobby/LobbyMediator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gameModule/lobby/LobbyMediator.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game/gameModule/lobby/LobbyUI.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gameModule/lobby/LobbyUI.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/managers/view/notice/GameAlertUI.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/managers/view/notice/GameAlertUI.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/gameUtils/CommonUtil.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gameUtils/CommonUtil.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game/playerData/GlobalProxy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/playerData/GlobalProxy.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leiDianJS/configs/CommonConfig.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leiDianJS/configs/DifficultConfig.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leiDianJS/configs/EffectConfig.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leiDianJS/configs/EnemyConfig.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leiDianJS/configs/FormationConfig.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leiDianJS/configs/GameConfig.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leiDianJS/configs/ItemConfig.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leiDianJS/configs/LanguageConfig.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leiDianJS/configs/PlaneConfig.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leiDianJS/configs/RoleEffectConfig.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leiDianJS/configs/StoreItemConfig.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leiDianJS/configs/UIConfig.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/runtime/native_require.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/runtime/native_require.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +69,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="NamedScopeManager">
+    <scope name="Unnamed" pattern="file[AceCombat]:src//*" />
   </component>
   <component name="ProjectId" id="1XIUSj8StraIostAga45jQRyYCS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -49,7 +86,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/leiDianJS" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+    <property name="settings.editor.selected.configurable" value="inlay.hints" />
+    <property name="ts.external.directory.path" value="D:\tools\JetBrains\WebStorm 2019.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -88,6 +126,8 @@
       <workItem from="1580741436348" duration="4735000" />
       <workItem from="1580827114635" duration="2618000" />
       <workItem from="1580831097091" duration="11061000" />
+      <workItem from="1581265091230" duration="1233000" />
+      <workItem from="1581365671218" duration="1786000" />
     </task>
     <servers />
   </component>
@@ -107,38 +147,42 @@
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
     <state x="1156" y="312" key="FileChooserDialogImpl/0.0.2752.1112@0.0.2752.1112" timestamp="1580733505760" />
-    <state width="1900" height="281" key="GridCell.Tab.0.bottom" timestamp="1580841243404">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1900" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580841243404" />
-    <state width="2731" height="305" key="GridCell.Tab.0.bottom/0.0.2752.1112@0.0.2752.1112" timestamp="1580752165427" />
-    <state width="1900" height="281" key="GridCell.Tab.0.center" timestamp="1580841243403">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1900" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580841243403" />
-    <state width="2731" height="305" key="GridCell.Tab.0.center/0.0.2752.1112@0.0.2752.1112" timestamp="1580752165426" />
-    <state width="1900" height="281" key="GridCell.Tab.0.left" timestamp="1580841243403">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1900" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580841243403" />
-    <state width="2731" height="305" key="GridCell.Tab.0.left/0.0.2752.1112@0.0.2752.1112" timestamp="1580752165426" />
-    <state width="1900" height="281" key="GridCell.Tab.0.right" timestamp="1580841243403">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1900" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580841243403" />
-    <state width="2731" height="305" key="GridCell.Tab.0.right/0.0.2752.1112@0.0.2752.1112" timestamp="1580752165427" />
-    <state x="878" y="199" key="SettingsEditor" timestamp="1580733508700">
+    <state width="2731" height="304" key="GridCell.Tab.0.bottom" timestamp="1581367452632">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
-    <state x="878" y="199" key="SettingsEditor/0.0.2752.1112@0.0.2752.1112" timestamp="1580733508700" />
+    <state width="1900" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580841243404" />
+    <state width="2731" height="304" key="GridCell.Tab.0.bottom/0.0.2752.1112@0.0.2752.1112" timestamp="1581367452632" />
+    <state width="2731" height="304" key="GridCell.Tab.0.center" timestamp="1581367452632">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state width="1900" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580841243403" />
+    <state width="2731" height="304" key="GridCell.Tab.0.center/0.0.2752.1112@0.0.2752.1112" timestamp="1581367452632" />
+    <state width="2731" height="304" key="GridCell.Tab.0.left" timestamp="1581367452632">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state width="1900" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580841243403" />
+    <state width="2731" height="304" key="GridCell.Tab.0.left/0.0.2752.1112@0.0.2752.1112" timestamp="1581367452632" />
+    <state width="2731" height="304" key="GridCell.Tab.0.right" timestamp="1581367452632">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state width="1900" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580841243403" />
+    <state width="2731" height="304" key="GridCell.Tab.0.right/0.0.2752.1112@0.0.2752.1112" timestamp="1581367452632" />
+    <state x="1598" y="193" key="SettingsEditor" timestamp="1581366852670">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state x="1598" y="193" key="SettingsEditor/0.0.2752.1112@0.0.2752.1112" timestamp="1581366852670" />
     <state x="471" y="87" width="1178" height="826" key="find.popup" timestamp="1580841302754">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="471" y="87" width="1178" height="826" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580841302754" />
-    <state x="737" y="239" width="672" height="635" key="search.everywhere.popup" timestamp="1580840821549">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="969" y="215" key="scopes" timestamp="1581367212652">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state x="969" y="215" key="scopes/0.0.2752.1112@0.0.2752.1112" timestamp="1581367212652" />
+    <state x="1039" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1581367380438">
+      <screen x="0" y="0" width="2752" height="1112" />
     </state>
     <state x="737" y="239" width="672" height="635" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580840821549" />
-    <state x="1039" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2752.1112@0.0.2752.1112" timestamp="1580743500820" />
+    <state x="1039" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2752.1112@0.0.2752.1112" timestamp="1581367380438" />
   </component>
 </project>

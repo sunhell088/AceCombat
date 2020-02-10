@@ -173,14 +173,14 @@ var CommonUtil = (function () {
         }
     };
     //灰度滤镜
-    CommonUtil.greyColorFlilter = new egret.ColorMatrixFilter([
+    CommonUtil.greyColorFilter = new egret.ColorMatrixFilter([
         0.3, 0.6, 0, 0, 0,
         0.3, 0.6, 0, 0, 0,
         0.3, 0.6, 0, 0, 0,
         0, 0, 0, 1, 0
     ]);
     //调暗滤镜
-    CommonUtil.darkColorFlilter = new egret.ColorMatrixFilter([
+    CommonUtil.darkColorFilter = new egret.ColorMatrixFilter([
         0.95, 0, 0, 0, 0,
         0, 0.95, 0, 0, 0,
         0, 0, 0.95, 0, 0,

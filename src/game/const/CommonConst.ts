@@ -6,8 +6,6 @@ class CommonConst {
     //加载相关的groupName
     public static RES_GROUP_PRELOAD:string = "preload";
     public static RES_GROUP_GAME_SCENE:string = "gameScene";
-    public static RES_GROUP_HELP:string = "help";
     //静默加载顺序
-    public static RES_GROUP_ORDER:string[] = [CommonConst.RES_GROUP_PRELOAD, CommonConst.RES_GROUP_GAME_SCENE,
-        CommonConst.RES_GROUP_HELP];
+    public static RES_GROUP_ORDER:string[] = [CommonConst.RES_GROUP_PRELOAD, CommonConst.RES_GROUP_GAME_SCENE];
 }

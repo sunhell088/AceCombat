@@ -4,7 +4,7 @@
 class CommonUtil {
     private static fadeRect:eui.Rect;
     //灰度滤镜
-    public static greyColorFlilter:egret.ColorMatrixFilter = new egret.ColorMatrixFilter(
+    public static greyColorFilter:egret.ColorMatrixFilter = new egret.ColorMatrixFilter(
         [
             0.3, 0.6, 0, 0, 0,
             0.3, 0.6, 0, 0, 0,
@@ -12,7 +12,7 @@ class CommonUtil {
             0, 0, 0, 1, 0
         ]);
     //调暗滤镜
-    public static darkColorFlilter:egret.ColorMatrixFilter = new egret.ColorMatrixFilter(
+    public static darkColorFilter:egret.ColorMatrixFilter = new egret.ColorMatrixFilter(
         [
             0.95, 0, 0, 0, 0,
             0, 0.95, 0, 0, 0,

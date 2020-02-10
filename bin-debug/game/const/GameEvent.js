@@ -13,16 +13,6 @@ var GameEvent = (function (_super) {
     function GameEvent() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
-    //战斗中经验增加
-    GameEvent.EXP_INCREASE_IN_FIGHT = "EXP_INCREASE_IN_FIGHT";
-    //战斗中升级
-    GameEvent.UP_GRADE_IN_FIGHT = "UP_GRADE_IN_FIGHT";
-    //战斗中增加炸弹
-    GameEvent.ADD_BOMB_IN_FIGHT = "ADD_BOMB_IN_FIGHT";
-    //战斗中增加炸弹
-    GameEvent.USE_BOMB_IN_FIGHT = "USE_BOMB_IN_FIGHT";
-    //战斗中增加金币
-    GameEvent.ADD_GOLD_IN_FIGHT = "ADD_GOLD_IN_FIGHT";
     return GameEvent;
 }(egret.Event));
 __reflect(GameEvent.prototype, "GameEvent");
